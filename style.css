@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: #ccc;
 }
 
 body, html {
@@ -9,6 +10,7 @@ body, html {
 
 .container {
     height: 100%;
+    transition: .4s;
 }
 
 .nav-bar {
@@ -53,4 +55,29 @@ input:before {
 input:checked:before {
     transform: translateX(30px);
     background: #000;
+}
+
+.content {
+    width: 350px;
+    text-align: center;
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
+    transition: .4s;
+}
+
+.content h1 {
+    padding: 15px;
+    transition: .4s;
+}
+
+.content p {
+    padding: 30px;
+    font-size: 24px;
+    transition: .4s;
+}
+
+.center {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
 }
