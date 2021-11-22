@@ -27,7 +27,7 @@ body, html {
 
 input {
     appearance: none;
-    background: #333;
+    background: #ddd;
     height: 20px;
     width: 50px;
     border-radius: 15px;
@@ -35,7 +35,7 @@ input {
 }
 
 input:checked {
-    background: #ddd;
+    background: #333;
 }
 
 input:before {
@@ -43,7 +43,7 @@ input:before {
     height: 30px;
     width: 30px;
     position: absolute;
-    background: black;
+    background: white;
     border-radius: 50%;
     top: -5px;
     left: -5px;
@@ -52,5 +52,5 @@ input:before {
 
 input:checked:before {
     transform: translateX(30px);
-    background: #fff;
+    background: #000;
 }
